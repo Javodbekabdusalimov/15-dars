@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.otasi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 90px;
+
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.a {
+  width: 80px;
+  height: 80px;
+  background-color: darkblue;
+  border-radius: 15px;
+  display: flex;
+  padding: 3px 3px;
+  margin-left: 3px;
+  gap: 3px;
+}
+.a div {
+  width: 15px;
+  height: 15px;
+  background-color: orange;
+  border-radius: 3px;
+}
+
+.b {
+  width: 80px;
+  height: 80px;
+  background-color: darkblue;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 5px 3px;
+}
+.b div {
+  width: 15px;
+  height: 15px;
+  background-color: orange;
+  border-radius: 3px;
+}
+.c {
+  width: 80px;
+  height: 80px;
+  background-color: darkblue;
+  border-radius: 15px;
+  display: flex;
+  align-items: start;
+
+  gap: 5px;
+  flex-wrap: wrap;
+
+  align-self: flex-start;
+  padding: 5px;
+}
+.c div {
+  width: 15px;
+  height: 15px;
+  background-color: orange;
+  border-radius: 3px;
+}
+.d {
+  width: 80px;
+  height: 80px;
+  background-color: darkblue;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  gap: 3px;
+  padding: 5px;
+}
+.d div {
+  width: 15px;
+  height: 15px;
+  background-color: orange;
+  border-radius: 3px;
+}
+
+.e {
+  width: 80px;
+  height: 80px;
+  background-color: darkblue;
+  border-radius: 15px;
+  display: flex;
+  gap: 3px;
+  padding: 5px;
+}
+.e div {
+  width: 15px;
+  height: 15px;
+  background-color: orange;
+  border-radius: 4px;
+}
+
+.f {
+  width: 80px;
+  height: 80px;
+  background-color: darkblue;
+  border-radius: 15px;
+  display: flex;
+  justify-content: end;
+  gap: 3px;
+  padding: 5px;
+}
+.f div {
+  width: 15px;
+  height: 15px;
+  background-color: orange;
+  border-radius: 4px;
+}
+.g {
+  width: 80px;
+  height: 80px;
+  background-color: darkblue;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 3px;
+  margin-top: 3px;
+  padding: 5px;
+}
+.g div {
+  width: 15px;
+  height: 15px;
+  background-color: orange;
+  border-radius: 4px;
+}
+.h {
+  width: 80px;
+  height: 80px;
+  background-color: darkblue;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  gap: 3px;
+  padding: 4px;
+}
+.h div {
+  width: 15px;
+  height: 15px;
+  background-color: orange;
+  border-radius: 4px;
+}
+.i {
+  width: 80px;
+  height: 80px;
+  background-color: darkblue;
+  border-radius: 15px;
+  display: flex;
+  gap: 3px;
+  padding: 5px;
+}
+.i div {
+  width: 15px;
+  height: 15px;
+  background-color: orange;
+  border-radius: 4px;
+}
+.j {
+  width: 80px;
+  height: 80px;
+  background-color: darkblue;
+  border-radius: 15px;
+  display: flex;
+  padding: 5px;
+  align-items: end;
+  gap: 2px;
+}
+.j div {
+  width: 15px;
+  height: 15px;
+  background-color: orange;
+  border-radius: 4px;
+}
+.k {
+  width: 80px;
+  height: 80px;
+  background-color: darkblue;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  padding: 5px;
+}
+.k div {
+  width: 15px;
+  height: 15px;
+  background-color: orange;
+  border-radius: 4px;
+}
+.l {
+  width: 80px;
+  height: 80px;
+  background-color: darkblue;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  gap: 2px;
+  padding: 5px;
+}
+.l div {
+  width: 15px;
+  height: 15px;
+  background-color: orange;
+  border-radius: 4px;
+}
+
+.container {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
